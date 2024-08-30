@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <link rel="icon" type="image/x-icon" href="https://marketplace.canva.com/EAFaFUz4aKo/2/0/1600w/canva-yellow-abstract-cooking-fire-free-logo-JmYWTjUsE-Q.jpg ">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Add your background image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #4CAF50; /* Green color for the navigation bar */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* Change color on hover */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .home_dish {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        .dish {
+            width: 300px;
+            margin: 2%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 8px 8px 5px rgb(86, 81, 81);
+            flex-basis: 25%;
+            transition: transform .3s;
+
+            
+        }
+        .dish:hover{
+            transform: scale(1.1);
+        }
+        
+      
+         img{
+            max-width: fit-content;
+            max-height: 200px;
+            margin-bottom: 0%;
+            object-fit: cover;
+            border-radius: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zobia's Hotel Delicious Menu</h1>
+</header>
+
+<nav>
+    <a href="index.html" target="_blank">Home</a> |
+    <a href="menu.html">Menu</a> |
+    <a href="contact.html" target="_blank">Contact</a>
+</nav>
+
+<section class="menu">
+    <div class="dish">
+        <div class="img">
+        <img src="https://www.cookwithnabeela.com/wp-content/uploads/2024/02/AlooSamosa3.webp" alt="Vada-Pav" style="height: fit-content;">
+        </div>
+        <h3>Samosa</h3>
+        <button class="y">Price: 40 Rs</button>
+    </div>
+    
+
+    <div class="dish">
+        <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbjd4NCjru9EqX8mPLrPTz4gZRpZVkmDlLwQ&s" alt="Batata-Bhaji-Pav" style="height: 224px;">
+        </div>
+        <h3>Kachori</h3>
+        <button class="y">Price: 40 Rs</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0BkFEH9lV9t7D_2UcdzF7r8f5iKMWk0XECA&s" alt="Samosa-Pav" width: 10px;>
+        </div>
+        <h3>lassi</h3>
+        <button class="y">Price: 90 Rs</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3R-vFG6kiRt5uwKbSuQnwdCzJex0e-3vIJQ&s" alt="Fakt Vada">
+        </div>
+        <h3>Patties</h3>
+        <button class="y">Price: 60 Rs</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://www.allrecipes.com/thmb/WyCC-RL8cuAEKfYHsdnzqi64iTc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/73135-homestyle-potato-chips-ddmfs-0348-3x4-hero-c21021303c8849bbb40c1007bfa9af6e.jpg" alt="Fakt Samosa">
+        </div>
+        <h3>Chips</h3>
+        <button class="y">Price: 95 Rs</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FRecipes%2F2023-12-milk-tea%2Fmilk-tea-587" alt="Misal Pav">
+        </div>
+        <h3>Tea</h3>
+        <button class="y">Price: 70 Rs</button>
+    </div>
+    <div class="dish">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbxQbKrn9WC66Si5CNceWM47BZh0UkKpze-A&s" alt="Usal Pav">
+        <h3>Coldrink</h3>
+        <button class="y">Price: 90 Rs</button>
+    </div>
+    <div class="dish">
+        <div class="img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWlLEu7wi0IuldtXnuBvFgJ4937s_BO4cNmg&s" alt="Mixed Bhaji Plate" style="height: 224px;">
+        </div>
+        <h3>Mixed-Plate-biryani</h3>
+        <button class="y">Price: 200 Rs</button>
+    </div>
+    <div class="dish">
+        <img src="https://content.instructables.com/F4B/77Q8/KQNRYADO/F4B77Q8KQNRYADO.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150" alt="Patties">
+        <h3>Bread Patties</h3>
+        <button class="y">Price: 90 Rs</button>
+    </div>>
+    <div class="dish">
+        <img src="https://5.imimg.com/data5/IOS/Default/2023/12/369122639/JL/RU/DU/12771356/product-jpeg.png" alt="tea 2">
+        <h3>Kulhad Tea</h3>
+        <button class="y">Price: 60 Rs</button>
+    </div>
+    <div class="dish">
+        <img src="https://pk-live-21.slatic.net/kf/Sdbba3d542a3f4c15828350ad37cbc0882.jpg_750x750.jpg_.webp" alt="Punjabi Lassi">
+        <h3>Nimco</h3>
+        <button class="y">Price: 90 Rs</button>
+    </div>
+    <div class="dish">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFw4kEshclzePUncEI-E4kII2yffUFESFtA&s" alt="Chhas">
+        <h3>Pastry</h3>
+        <button class="y">Price: 140 Rs</button>
+    </div>
+    <div class="dish">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg" alt="Coffee">
+        <h3>Coffee</h3>
+        <button class="y">Price: 90 Rs</button>
+    </div>
+
+</section>
+
+<footer>
+    &copy; 2024 Zobia's Hotel. All rights reserved.
+</footer>
+
+</body>
+</html>
